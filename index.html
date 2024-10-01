@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neil's Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/image/myself.png" alt="Neil Micarandayo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Neil Micarandayo">Neil Micarandayo</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:neil.micarandayo@nmsc.edu.ph" class="contact-link">neil.micarandayo@nmsc.edu.ph</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="Phone:+639672171210" class="contact-link">+639672171210</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-01-01">January 1, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Daan-campo, Magsaysay, Lanao Del Norte</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/neil.micarandayo/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/neil_on_ig2024/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Welcome to my portfolio, please enjoy! I'm a passionate visual storyteller that specializes in web development and has an aptitude for management. I also love taking and editing videos. My broad skill set enables me to successfully lead projects and create engaging digital experiences. View my work to see how I bring technical expertise and creativity together.
+          </p>
+
+          <p>
+            I play a key role in news segment editing at The Insights Publication in Northwestern Mindanao State College of Science and Technology. I can now tell gripping stories in a dynamic and interesting way thanks to the role's sharpening of my filmmaking and editing skills. It's a wonderful fit for my love of technology and storytelling.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/image/camera-operator.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Videography</h4>
+
+                <p class="service-item-text">
+                  As a videographers I use a variety of equipment, including cameras, lighting, and sound recording tools, to create high-quality visual stories. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/image/app-development.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/image/development.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Beginner development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/image/camera.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - REVIEWS
+        -->
+
+        <section class="reviews">
+
+          <h3 class="h3 reviews-title">REVIEWS</h3>
+
+          <ul class="reviews-list has-scrollbar">
+
+            <li class="reviews-item">
+              <div class="content-card" data-reviews-item>
+
+                <figure class="reviews-avatar-box">
+                  <img src="./assets/image/Bunatnat.png" alt="Nathaniel Jan Toliao" width="60" data-reviews-avatar>
+                </figure>
+
+                <h4 class="h4 reviews-item-title" data-reviews-title>Nathaniel Jan Toliao</h4>
+
+                <div class="reviews-text" data-reviews-text>
+                  <p>
+                  I recently hired Neil as a web developer for a project, and the results exceeded expectations. 
+                  Neil demonstrated excellent technical skills, delivering a responsive, modern, and user-friendly website. 
+                  His attention to detail and ability to solve problems quickly stood out, 
+                  ensuring the project was completed on time and with high quality. 
+                  I was particularly impressed by Neil’s professionalism, creativity, 
+                  and commitment to meeting the project’s goals. Overall, 
+                  I highly recommend Neil for any web development work, confident in his ability to deliver exceptional results.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="reviews-item">
+              <div class="content-card" data-reviews-item>
+
+                <figure class="reviews-avatar-box">
+                  <img src="./assets/image/Monik.png" alt="Monica Faith" width="60" data-reviews-avatar>
+                </figure>
+
+                <h4 class="h4 reviews-item-title" data-reviews-title>Monica Faith Junio</h4>
+
+                <div class="reviews-text" data-reviews-text>
+                  <p>
+                    Working with Neil has been an extraordinary experience for me! 
+                    I commissioned him for a stellar promotional video project, 
+                    and the results were exactly what I was expecting! Neil was very accommodating; 
+                    he maintained communication and asked for every detail I wanted to be included in the project, 
+                    may it be small or big. He is also very punctual with the deadline, and sent short previews/updates to me 
+                    from time to time. 10/10 would highly recommend working with him! 
+                    I know I would work with him again. Neil is an all-star!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="reviews-item">
+              <div class="content-card" data-reviews-item>
+
+                <figure class="reviews-avatar-box">
+                  <img src="./assets/image/Bini.png" alt="Bini" width="60" data-reviews-avatar>
+                </figure>
+
+                <h4 class="h4 reviews-item-title" data-reviews-title>Teodoro Jr Caro Mutia</h4>
+
+                <div class="reviews-text" data-reviews-text>
+                  <p>
+                    I hired Neil as a photographer, and the experience was fantastic. 
+                    Neil showcased exceptional skill in capturing stunning images, demonstrating a keen eye for detail and composition. 
+                    He made the shoot enjoyable and relaxed, which resulted in natural and engaging photos. 
+                    I was particularly impressed with Neil's ability to bring out the best in every shot, 
+                    delivering high-quality work that perfectly captured the essence of the event. 
+                    I highly recommends Neil for any photography needs, confident in his talent and professionalism.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="reviews-item">
+              <div class="content-card" data-reviews-item>
+
+                <figure class="reviews-avatar-box">
+                  <img src="./assets/image/William.png" alt="William Pelayo" width="60" data-reviews-avatar>
+                </figure>
+
+                <h4 class="h4 reviews-item-title" data-reviews-title>William Pelayo</h4>
+
+                <div class="reviews-text" data-reviews-text>
+                  <p>
+                    I hired Neil as a graphic designer for a recent project and was thoroughly impressed with the outcome. 
+                    Neil showcased his creativity and keen eye for detail, producing stunning visuals that perfectly aligned with my vision. 
+                    His ability to incorporate feedback and make adjustments quickly made the collaboration smooth and enjoyable. 
+                    I appreciated Neil's professionalism and dedication, resulting in a final product that exceeded expectations. 
+                    I recommend Neil for any graphic design work, confident in his talent and commitment to excellence.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - reviews modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="reviews-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/image/Bunatnat.png" alt="Nathaniel Jan Toliao" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/image/quote.png" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Nathaniel Jan Toliao</h4>
+
+              <time datetime="2024-06-14">14 september, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  I recently hired Neil as a web developer for a project, and the results exceeded expectations. 
+                  Neil demonstrated excellent technical skills, delivering a responsive, modern, and user-friendly website. 
+                  His attention to detail and ability to solve problems quickly stood out, 
+                  ensuring the project was completed on time and with high quality. 
+                  I was particularly impressed by Neil’s professionalism, creativity, 
+                  and commitment to meeting the project’s goals. Overall, 
+                  I highly recommend Neil for any web development work, confident in his ability to deliver exceptional results.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/image/Bunatnat.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/image/Monik.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/image/Bini.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/image/William.png" alt="client logo">
+              </a>
+            </li>
+       </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Polytechnic University Of The Philippines</h4>
+
+              <span>2026 — 2028</span>
+
+              <p class="timeline-text">
+                With Degree of Master in Information Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">State University Of Northwestern Mindanao</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                With degree of Bachelor Of Science in Information Technology(BSIT)<br>Service Award <br> Dean's List
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Magsaysay National High School</h4>
+
+              <span>2015 — 2020</span>
+
+              <p class="timeline-text">
+                TVL- Organic Agriculture <br>With Honor <br>Best in Research Paper <br>Badminton District Meet Champion
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ACER PHILIPPINES</h4>
+
+              <span>2028 — Present</span>
+
+              <p class="timeline-text">
+                WEB DEVELOPER <br>Detail-oriented web developer with experience in designing, coding, and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript, with expertise in frameworks such as React and Angular. Strong background in collaborating with designers and stakeholders to create user-friendly interfaces. Skilled in troubleshooting and optimizing website performance, with a commitment to delivering high-quality digital experiences.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">THE INSIGHTS PUBLICATION</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                VIDEOJOURNALIST <br>Creative videographer with expertise in planning, shooting, and editing video content for various formats, including promotional materials, events, and social media. Proficient in using professional camera equipment and editing software (Adobe Premiere, Final Cut Pro) to create engaging and visually appealing videos. Strong ability to collaborate with clients and teams to capture their vision and deliver high-quality results on time. Excellent storytelling skills, with a keen eye for detail and composition.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">G.G CREATIVES STUDIO</h4>
+
+              <span>2021 — present</span>
+
+              <p class="timeline-text">
+                PHOTOGRAPHER <br>Skilled photographer with experience in capturing high-quality images for diverse projects, including events, portraits, and commercial assignments. Proficient in utilizing advanced camera equipment and editing software (Lightroom, Photoshop) to produce visually compelling content. Adept at collaborating with clients to understand their vision and deliver stunning results that meet their needs. Strong attention to detail and a creative approach to storytelling through photography.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Videography</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photography</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphics Design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Videography</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphics Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Photography</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Videography</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Photography</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphics Design</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Videography">
+              <a href="https://www.youtube.com/embed/Aa9FvgZuurc?si=zgccQOrkbMUXNeoG">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <iframe width="350" height="180" src="https://www.youtube.com/embed/Aa9FvgZuurc?si=zgccQOrkbMUXNeoG" 
+                  title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">Bini Balik Skwela</h3>
+
+                <p class="project-category">Videography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Videography">
+              <a href="https://www.youtube.com/embed/IZlhgXQwZyc?si=YmKHDP2PSB5Aks-E">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <iframe width="350" height="180" src="https://www.youtube.com/embed/IZlhgXQwZyc?si=YmKHDP2PSB5Aks-E" 
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">NMSCST CELEBRATES CHED ANNIVERSARY</h3>
+
+                <p class="project-category">VIDEOGRAPHY</p>
+
+              </a>
+            </li>
+            <br>
+            <li class="project-item  active" data-filter-item data-category="Videography">
+              <a href="https://www.youtube.com/embed/A-0W6UmKJ7I?si=LpLgzPVz0F3M__2s">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <iframe width="350" height="180" src="https://www.youtube.com/embed/A-0W6UmKJ7I?si=LpLgzPVz0F3M__2s" 
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">BGROS Leadership Summit</h3>
+
+                <p class="project-category">Videography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Videography">
+              <a href="https://www.youtube.com/embed/wxesY1D73Y8?si=90FmksBVJA6pxB9H">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <iframe width="350" height="180" src="https://www.youtube.com/embed/wxesY1D73Y8?si=90FmksBVJA6pxB9H" 
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">𝗡𝗠𝗦𝗖𝗦𝗧|Graduate Studies</h3>
+
+                <p class="project-category">Videography</p>
+
+              </a>
+            </li>
+            <br>
+            <li class="project-item  active" data-filter-item data-category="Graphics Design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/image/Birthday.png" alt="Kuya Ryan" loading="TIP">
+                </figure>
+
+                <h3 class="project-title">Birthday Layout</h3>
+
+                <p class="project-category">Graphics Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphics Design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/image/branding.png" alt="Brand" loading="brand" >
+                </figure>
+
+                <h3 class="project-title">Branding</h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+            <br>
+            <li class="project-item  active" data-filter-item data-category="Photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/image/ARRIVAL.jpg" alt="Tip fam" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TIP IN ACTION</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/image/pj.jpg"alt="Worship" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NMSCST worship gathering</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15803.643917380181!2d123.92278074410648!3d8.008116872286083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3255b72862c67235%3A0x587190127165200e!2sDaan%20Campo%2C%20Lanao%20del%20Norte!5e0!3m2!1sen!2sph!4v1727347614296!5m2!1sen!2sph"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
